@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --main-bg-color: brown;
+    --font1: 'Reggae One', cursive;
+    --font2: 'Lobster', cursive;
+    --font3: 'Lato', sans-serif;
+
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mx-1 {
+    margin-left: 23px;
+    margin-right: 25px;
+}
+
+.my-1 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+
+.btn {
+    padding: 5px 15px;
+    border: 2px solid rosybrown;
+    border-radius: 9px;
+    font-size: 16px;
+    font-family: var(--font3);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.btn:hover {
+    color: cornsilk;
+    background-color: var(--main-bg-color);
+}
+
+.from-input {
+    padding: 7px 8px;
+    border: 2px solid rosybrown;
+    border-radius: 11px;
+    font-size: 16px;
+    margin: 0 7px;
+    font-family: var(--font3);
+}
